@@ -1,0 +1,62 @@
+USO DE HERRAMIENTAS DE IA GENERATIVA
+Proyecto aplicado: Reconstrucción y regularización en imágenes tomográficas
+Métodos Computacionales, S2 2026
+
+Integrantes: Milde, ___ - Elosegui, ___
+
+-------------------------------------------------------------------------------
+BORRADOR - COMPLETAR Y CORREGIR ANTES DE ENTREGAR
+Este archivo debe reflejar lo que efectivamente hicieron ustedes. Abajo queda un
+esquema con el formato pedido; hay que ajustar cada ítem a la realidad del
+trabajo de cada ejercicio.
+-------------------------------------------------------------------------------
+
+HERRAMIENTA UTILIZADA
+  Claude (Anthropic), a través de Claude Code.
+
+DETALLE POR EJERCICIO
+
+  Ejercicio 1 - Una imagen como matriz y como vector          [tag: Sin IA]
+    Uso declarado: ________________________________________________
+    (El enunciado marca este ejercicio como "Sin IA". Si se usó asistencia,
+    hay que declararlo explícitamente y hablarlo con el docente.)
+
+  Ejercicio 2 - Simulación de un único rayo binario           [tag: Sin IA]
+    Uso declarado: ________________________________________________
+
+  Ejercicio 3 - Matriz de proyección binaria                  [tag: Sin IA]
+    Uso declarado: ________________________________________________
+
+  Ejercicio 4 - ¿Reconstrucción única?      [tag: Asistencia destrabar/corregir]
+    Uso declarado: ________________________________________________
+    Ejemplos de uso permitido en este ejercicio: pedir una explicación del
+    teorema de rango y nulidad aplicado al caso m x n^2; revisar el
+    razonamiento sobre por qué rango(A) = 64 es la condición de unicidad;
+    destrabarse con la extracción de un vector del espacio nulo vía SVD
+    (qué fila de Vt corresponde al menor valor singular).
+
+  Ejercicio 5 - Reconstrucción ideal        [tag: Asistencia destrabar/corregir]
+    Uso declarado: ________________________________________________
+    Ejemplos: revisar la interpretación de la solución de norma mínima que
+    devuelve np.linalg.lstsq; verificar la afirmación de que el error de
+    reconstrucción coincide con la proyección del fantoma sobre Nul(A_k).
+
+  Ejercicio 6 - Ruido y mínimos cuadrados   [tag: Asistencia destrabar/corregir]
+    Uso declarado: ________________________________________________
+    Ejemplos: pedir feedback sobre la explicación de por qué el residuo deja
+    de ser nulo (descomposición del ruido en Col(A7) y Col(A7)^perp);
+    discutir por qué aparecen valores negativos y qué relación tiene con la
+    falta de la restricción x >= 0 en el modelo lineal.
+
+  Ejercicios 7 a 11: pendientes.
+
+VERIFICACIÓN PROPIA
+  Todos los resultados numéricos de los notebooks fueron ejecutados de
+  principio a fin y contrastados contra los valores que el propio enunciado
+  anticipa (16 rayos y A en R^{16x64} para D2; A7 de rango columna completo;
+  b[:8] = X.sum(axis=1) y b[8:] = X.sum(axis=0)).
+
+ENTORNO
+  Python 3.14, numpy 2.5.1, matplotlib 3.11.1. Sólo se usaron numpy y
+  matplotlib (más os, y collections.defaultdict de la biblioteca estándar en
+  el Ejercicio 2).
