@@ -1,2 +1,4 @@
 4b) Usamos IA para formatear el print. Además, quisimos averiguar de dónde sacar las mediciones "redundantes"
 5b) Formatear encabezados y los prints
+5c) Nos trabamos con la explicación final
+6a) Formateo
