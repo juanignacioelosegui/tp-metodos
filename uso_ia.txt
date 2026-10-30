@@ -1,4 +1,10 @@
-4b) Usamos IA para formatear el print. Además, quisimos averiguar de dónde sacar las mediciones "redundantes"
-5b) Formatear encabezados y los prints
-5c) Nos trabamos con la explicación final
-6a) Formateo
+4b) Usamos IA para formatear el print. Además, quisimos averiguar de dónde sacar las mediciones "redundantes".
+5b) Formatear encabezados y los prints.
+5c) Nos trabamos con la explicación final.
+6a) Formateo.
+7) Le pedi que me explique conceptos que no entendia.
+Investigue funciones que me puedan servir de la libreria de numpy (meshgrid, @, np.linalg.norm)
+
+8)Explicar conceptos como Newton, kappa.
+9) para graficos y prints.
+10) Para algunos prints y para graficar, entonces se hace mas facil de entender. 
