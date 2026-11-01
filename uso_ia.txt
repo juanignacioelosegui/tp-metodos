@@ -4,7 +4,15 @@
 6a) Formateo.
 7) Le pedi que me explique conceptos que no entendia.
 Investigue funciones que me puedan servir de la libreria de numpy (meshgrid, @, np.linalg.norm)
+8)Explicar conceptos y procesos como Newton, kappa.
+Para graficos, prints y tablas.
+8b) Le pedi que me guie un poco para armar el gradiente descendiente, me habia trancado con eso.
+9) para graficos, prints y tablas.
+9j) Ayuda para entender mejor las relaciones de Lambda con los outputs antes de redactar la interpretación.
+10) El sinograma se me hacía chino básico si no me ayudaba con IA, también para las reconstrucciones.
+Me ayudó en la explicación para inerpretar cuestiones del ruido en las imágenes.
+Ayuda con los gráficos.
+Tuve que usar bastante IA para este, era muy complejo, intente ponerlo en modo guia, para ir entendiendo lo que hacia y no delegarle todo el laburo.
+11) Le pedi ayuda para entender mejor los conceptos y si tenia sentido lo que escribiamos en las respuestas.
 
-8)Explicar conceptos como Newton, kappa.
-9) para graficos y prints.
-10) Para algunos prints y para graficar, entonces se hace mas facil de entender. 
+EXTRA: nos ayudamos con IA para armar el markdown de la presentacion.
